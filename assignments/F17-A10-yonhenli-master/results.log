@@ -1,0 +1,179 @@
+Mon Dec  4 13:19:45 EST 2017
+matthew
+test.make:6: warning: overriding recipe for target 'test'
+test.make:6: warning: ignoring old recipe for target 'test'
+test.make:9: warning: overriding recipe for target 'backtrace'
+test.make:9: warning: ignoring old recipe for target 'backtrace'
+test.make:15: warning: overriding recipe for target 'really-clean'
+test.make:15: warning: ignoring old recipe for target 'really-clean'
+test.make:6: warning: overriding recipe for target 'test'
+test.make:6: warning: ignoring old recipe for target 'test'
+test.make:9: warning: overriding recipe for target 'backtrace'
+test.make:9: warning: ignoring old recipe for target 'backtrace'
+test.make:15: warning: overriding recipe for target 'really-clean'
+test.make:15: warning: ignoring old recipe for target 'really-clean'
+cc -g -Wall -std=c99 test.c rotate.S -o test -lcunit
+In file included from /usr/include/CUnit/Basic.h:36:0,
+                 from test.c:1:
+test.c: In function ‘testANYALL’:
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:9:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ANY_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) > 0)
+                                                       ^
+test.c:24:5: note: in expansion of macro ‘TEST_IF_ANY_SET’
+     TEST_IF_ANY_SET(0xDEADBEEFDEADBEEF,63,0),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                       ^
+test.c:27:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0xDEADBEEFDEADBEEF,63,0),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:83: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                                                   ^
+test.c:27:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0xDEADBEEFDEADBEEF,63,0),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:9:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ANY_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) > 0)
+                                                       ^
+test.c:30:5: note: in expansion of macro ‘TEST_IF_ANY_SET’
+     TEST_IF_ANY_SET(0xDEADBEEFDEADBEEF,35,32),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                       ^
+test.c:33:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0xDEADBEEFDEADBEEF,35,32),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:83: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                                                   ^
+test.c:33:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0xDEADBEEFDEADBEEF,35,32),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:9:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ANY_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) > 0)
+                                                       ^
+test.c:36:5: note: in expansion of macro ‘TEST_IF_ANY_SET’
+     TEST_IF_ANY_SET(0xFFFFFFFFFFFFFFFF,7,4),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                       ^
+test.c:39:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0xFFFFFFFFFFFFFFFF,7,4),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:83: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                                                   ^
+test.c:39:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0xFFFFFFFFFFFFFFFF,7,4),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:9:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ANY_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) > 0)
+                                                       ^
+test.c:42:5: note: in expansion of macro ‘TEST_IF_ANY_SET’
+     TEST_IF_ANY_SET(0x0,63,0),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:55: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                       ^
+test.c:45:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0x0,63,0),
+     ^
+macros.h:7:27: warning: suggest parentheses around ‘-’ inside ‘<<’ [-Wparentheses]
+ #define BIT_MASK(n) ((1UL << n) - 1)
+                           ^
+macros.h:11:83: note: in expansion of macro ‘BIT_MASK’
+ #define TEST_IF_ALL_SET(v, start, end) (((v >> end) & BIT_MASK((start)-(end))) == BIT_MASK((start)- (end)))
+                                                                                   ^
+test.c:45:5: note: in expansion of macro ‘TEST_IF_ALL_SET’
+     TEST_IF_ALL_SET(0x0,63,0),
+     ^
+cc -g -Wall -std=c99 backtrace.c bt.c asm.S -o backtrace
+
+
+     CUnit - A unit testing framework for C - Version 2.1-3
+     http://cunit.sourceforge.net/
+
+
+Suite: Suite_A10
+  Test: Testing TEST_IF_ANY_SET and TEST_IF_ALL_SET macros  ...passed
+  Test: Testing Rotate function  ...passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      2      2      2      0        0
+             asserts     16     16     16      0      n/a
+
+Elapsed time =    0.000 seconds
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./backtrace...done.
+(gdb) b print_backtrace
+Breakpoint 1 at 0x4005f4: file bt.c, line 7.
+(gdb) r
+Starting program: /home/matthew/github/bucs220/grading/F17-A10/F17-A10-yonhenli/backtrace 
+
+Breakpoint 1, print_backtrace (count=5) at bt.c:7
+7	{
+(gdb) bt
+#0  print_backtrace (count=5) at bt.c:7
+#1  0x00000000004005a4 in f1 () at backtrace.c:5
+#2  0x00000000004005b5 in f2 () at backtrace.c:9
+#3  0x00000000004005c6 in f3 () at backtrace.c:13
+#4  0x00000000004005e2 in main (argc=1, argv=0x7fffffffddc8) at backtrace.c:17
+(gdb) c
+Continuing.
+#1	0x00000000004005a4
+#2	0x00000000004005b5
+#3	0x00000000004005c6
+#4	0x00000000004005e2
+[Inferior 1 (process 16921) exited normally]
+(gdb) q

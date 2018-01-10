@@ -1,0 +1,41 @@
+Thu Oct 26 21:58:23 EDT 2017
+psinha1
+gcc file_recognizer.c -o file_recognizer
+unzip -d samples samples.zip
+Archive:  samples.zip
+  inflating: samples/abadi.pdf       
+  inflating: samples/a.out           
+  inflating: samples/bird.png.tricky  
+ extracting: samples/empty.zip       
+  inflating: samples/empty.zip.tricky  
+ extracting: samples/fake            
+ extracting: samples/fake.class      
+ extracting: samples/fake.gif        
+ extracting: samples/fake.pdf        
+ extracting: samples/fake.png        
+ extracting: samples/fake.zip        
+  inflating: samples/FizzBuzz.class.tricky  
+  inflating: samples/goktas.pdf.tricky  
+  inflating: samples/HelloWorld.class  
+  inflating: samples/lolcat.gif.tricky  
+  inflating: samples/PNG-Gradient_hex.png  
+  inflating: samples/shiba.gif       
+  inflating: samples/sqrt            
+Testing two good inputs and one bad input for each file type ...
+./file_recognizer samples/shiba.gif
+This is a GIF file.
+Testing incorrect number of arguments ...
+./file_recognizer
+Invalid input.
+Testing non-existent file ...
+./file_recognizer samples/missing
+Thu Oct 26 21:58:26 EDT 2017
+psinha1
+Testing two good inputs and one bad input for each file type ...
+./file_recognizer samples/shiba.gif
+This is a GIF file.
+Testing incorrect number of arguments ...
+./file_recognizer
+Invalid input.
+Testing non-existent file ...
+./file_recognizer samples/missing

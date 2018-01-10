@@ -1,0 +1,28 @@
+Mon Nov 13 13:26:14 EST 2017
+matthew
+cc -g -std=c99 test.c reverse64.S -o test -lcunit
+
+
+     CUnit - A unit testing framework for C - Version 2.1-3
+     http://cunit.sourceforge.net/
+
+Node [0xef6120] = {.val=55, .ptr=0xef6148, .var=55}
+Node [0xef6140] = {.val=94, .ptr=0xef6168, .var=94}
+Node [0xef6160] = {.val=317, .ptr=0xef6188, .var=317}
+Node [0xef6180] = {.val=974, .ptr=0xef61a8, .var=974}
+Node [0xef61a0] = {.val=204, .ptr=0xef61c8, .var=204}
+Node [0xef61c0] = {.val=524, .ptr=0xef61e8, .var=524}
+Node [0xef61e0] = {.val=985, .ptr=0xef6208, .var=985}
+Node [0xef6200] = {.val=239, .ptr=0xef6228, .var=239}
+Node [0xef6220] = {.val=778, .ptr=0xef6248, .var=778}
+Node [0xef6240] = {.val=968, .ptr=(nil), .var=968}
+
+Suite: Suite_A5
+  Test: Testing my_reverse function ... ...passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      1      1    n/a      0        0
+               tests      1      1      1      0        0
+             asserts      2      2      2      0      n/a
+
+Elapsed time =    0.000 seconds

@@ -1,0 +1,115 @@
+...
+======================================================================
+FAIL: test_a4_minus_b4 (__main__.Test_Assn1) (i=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 46, in test_a4_minus_b4
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '247' != '175'
+- 247
++ 175
+ : Failed a4_minus_b4(4,3)
+
+======================================================================
+FAIL: test_a4_minus_b4 (__main__.Test_Assn1) (i=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 46, in test_a4_minus_b4
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '1675520' != '-15097600'
+- 1675520
++ -15097600
+ : Failed a4_minus_b4(-36,64)
+
+======================================================================
+FAIL: test_a4_minus_b4 (__main__.Test_Assn1) (i=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 46, in test_a4_minus_b4
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '99995904' != '83222784'
+- 99995904
++ 83222784
+ : Failed a4_minus_b4(100,-64)
+
+======================================================================
+FAIL: test_swap_bytes (__main__.Test_Assn1) (i=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 39, in test_swap_bytes
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '0' != '72340172838076673'
+- 0
++ 72340172838076673
+ : Failed swap_bytes(72340172838076673)
+
+======================================================================
+FAIL: test_swap_bytes (__main__.Test_Assn1) (i=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 39, in test_swap_bytes
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '0' != '1157442765409226768'
+- 0
++ 1157442765409226768
+ : Failed swap_bytes(1157442765409226768)
+
+======================================================================
+FAIL: test_swap_bytes (__main__.Test_Assn1) (i=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 39, in test_swap_bytes
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '0' != '3752193753232633790'
+- 0
++ 3752193753232633790
+ : Failed swap_bytes(1311768468603649775)
+
+======================================================================
+FAIL: test_swap_bytes (__main__.Test_Assn1) (i=4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 39, in test_swap_bytes
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '0' != '12505104117682277872'
+- 0
++ 12505104117682277872
+ : Failed swap_bytes(10064964684000129037)
+
+======================================================================
+FAIL: test_swap_bytes (__main__.Test_Assn1) (i=5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 39, in test_swap_bytes
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '0' != '12518412284508245169'
+- 0
++ 12518412284508245169
+ : Failed swap_bytes(13451589446528577804)
+
+======================================================================
+FAIL: test_swap_bytes (__main__.Test_Assn1) (i=6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 39, in test_swap_bytes
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '0' != '1552845494595551451'
+- 0
++ 1552845494595551451
+ : Failed swap_bytes(10094186141268892416)
+
+======================================================================
+FAIL: test_swap_bytes (__main__.Test_Assn1) (i=7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test.py", line 39, in test_swap_bytes
+    self.assertEqual(ts[i][1], answers[i], "Failed %s" % ts[i][0])
+AssertionError: '0' != '17149372008485285822'
+- 0
++ 17149372008485285822
+ : Failed swap_bytes(18369614221190020847)
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=10)
