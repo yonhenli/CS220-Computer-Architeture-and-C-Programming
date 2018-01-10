@@ -4,8 +4,8 @@
 
 | Team Member        | Git Username | B-Number  |
 |--------------------|--------------|-----------|
-| Yongheng Li        | yonhenli     | B00615819 |
-| Victoria Fabrizio  | vfabrizio    | B00579949 |
+| Yongheng Li        | yonhenli     | B00000000 |
+| Victoria Fabrizio  | vfabrizio    | B00000000 |
 
 ## Contributions
 
