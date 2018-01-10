@@ -1,0 +1,22 @@
+Test run: Sun, 22 Oct 2017 03:21:22 +0000
+Tester: matthew
+Input file: Input.txt
+Whitespace lines removed: 0
+Extra output lines removed: 0
+
+Total Errors: 0
+
+
+
+Test run: Sun, 22 Oct 2017 03:21:40 +0000
+Tester: matthew
+Input file: Pair.txt
+Whitespace lines removed: 0
+Extra output lines removed: 0
+
+Case: 0 Hand: 2S 3S KS KH 2H 3H 6S 7H 8D Expected: player 1 wins Actual: player 2 wins
+Case: 1 Hand: KS KH 2S 3S 2H 3H 6S 7H 8D Expected: player 2 wins Actual: player 1 wins
+Total Errors: 2
+
+
+
