@@ -1,0 +1,26 @@
+(gdb) p &student.name
+$1 = (char **) 0x7fffffffe680
+(gdb) p &student.age
+$2 = (int *) 0x7fffffffe688
+(gdb) p &new_name
+$3 = (char **) 0x7fffffffe660
+
+offset between student.name and new_name: 0x20
+
+0x00005555555546e7 <+0>:	push   %rbp
+0x0000555555554706 <+31>:	callq  0x5555555546b0 <bad>
+
+ret_orig:
+0x000055555555470b <+36>:	mov    -0x8(%rbp),%edx
+
+ret_new:
+0x0000555555554721 <+58>:	callq  0x555555554560 <printf@plt>
+
+ret_offset: 0x16
+
+addr_ret_orig:
+0x00007fffffffe690
+
+stack_offset_ret_addr: 0x30
+
+

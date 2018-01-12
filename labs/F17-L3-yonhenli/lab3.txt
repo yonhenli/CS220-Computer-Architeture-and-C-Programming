@@ -1,0 +1,42 @@
+3.Structure
+(2)size of bs: 24
+   size of gs: 16
+(3)
+	in the bs:
+	address of s1: 0x7ffcbcf684b0
+	address of l1: 0x7ffcbcf684b8
+	address of s2: 0x7ffcbcf684c0
+	in the gs:
+	address of s1: 0x7ffcbcf684d0
+	address of l1: 0x7ffcbcf684d8
+	address of s2: 0x7ffcbcf684d2
+
+4. Union
+(2)size of u: 8
+	address of c: 0x7ffc5a3e3488
+	address of i: 0x7ffc5a3e3488
+	address of l: 0x7ffc5a3e3488
+(5)size of u: 8
+	c: 0
+	l: 34165590585603663
+	i: 1919252047
+	&l: Overlay
+(6)0x7fffffffe658
+
+	0x7fffffffe658: 79      118     101     114     108     97      121     0
+	0x7fffffffe660: 0       0       0       0       0       0       0       0
+(8)how printf interprete union: the printf prints the union from the bottom to the top 
+(9)struct might be useful for objected oriented programming; union is useful when something is unclear and it is also memory saving.
+
+5. Arrays and sizeof
+(1)the size of x: 40
+(2)the size of x: 8
+
+	the size of x: 80
+	the size of x: 8
+
+	the size of x: 120
+	the size of x: 8
+(5)the size of return value is always 8 bytes, because it is the size of a pointer (address) in 64 bit machine.
+
+

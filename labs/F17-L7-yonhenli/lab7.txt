@@ -1,0 +1,68 @@
+NUM_NODE = 20
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 10
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000001 micro sec
+
+NUM_NODE = 100
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 1000
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 10000
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 100000
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 1000000
+ASM:  0 sec, 000001 micro sec
+C:  0 sec, 000000 micro sec
+
+C should take longer. Because asm always uses registers.
+
+after optimize:
+
+NUM_NODE = 20
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 10
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 100
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 1000
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 10000
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 100000
+ASM:  0 sec, 000000 micro sec
+C:  0 sec, 000000 micro sec
+
+NUM_NODE = 1000000
+ASM:  0 sec, 000001 micro sec
+C:  0 sec, 000000 micro sec
+
+how reverse_asm can be faster: reduce the number of instructions
+
+num of instruction in reverse_c: 17
+
+num of instruction in reverse_asm: 10
+
+
+

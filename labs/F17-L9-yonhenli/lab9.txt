@@ -1,0 +1,21 @@
+HDD ACCESS:  13 sec, 622321 micro sec STEP_SIZE 4
+HDD ACCESS:  1 sec, 723068 micro sec STEP_SIZE 32
+HDD ACCESS:  0 sec, 401128 micro sec  128
+HDD ACCESS:  0 sec, 093494 micro sec  1024
+
+1
+MEN SERIAL ACCESS:  0 sec, 003431 micro sec
+MEN SERIAL ACCESS:  0 sec, 013412 micro sec
+
+4
+MEN SERIAL ACCESS:  0 sec, 015456 micro sec
+MEN SERIAL ACCESS:  0 sec, 054355 micro sec
+
+32
+MEN SERIAL ACCESS:  0 sec, 111343 micro sec
+MEN SERIAL ACCESS:  0 sec, 531333 micro sec
+
+128
+MEN SERIAL ACCESS:  0 sec, 334651 micro sec
+MEN SERIAL ACCESS:  2 sec, 135434 micro sec
+

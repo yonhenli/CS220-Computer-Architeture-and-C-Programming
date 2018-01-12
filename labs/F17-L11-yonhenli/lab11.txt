@@ -1,0 +1,14 @@
+1, Because fork() return twice
+2, The order has been changed
+3, Parent ID: 1775, Child ID: 1776
+4, Parent ID: 1585, Child ID: 1799
+5, x: 1, because x had been incremented in the child
+
+1, 	line 1: 2
+	line 2: 4
+	line 3: 4
+	line 4: 4
+	reasons: each fork generates one child process
+2, because some parents completed the processes before the child process, so the child processes were adopted by the root process which has pid of 1
+
+1, Child pid: 2536, parent pid: 2535
